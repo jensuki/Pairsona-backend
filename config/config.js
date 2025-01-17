@@ -7,7 +7,7 @@ require('colors');
 
 // environmental variables
 const SECRET_KEY = process.env.SECRET_KEY || 's3cr3tk3y';
-const PORT = +process.env.PORT || 3001;
+const PORT = process.env.PORT || 3001;
 
 // get uri for test or production
 const getDatabaseUri = () => {
