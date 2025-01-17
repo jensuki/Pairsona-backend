@@ -30,9 +30,7 @@ app.use(morgan('tiny'));
 app.use(authenticateJWT);
 
 // serve static files from build directory
-const distPath = path.join(__dirname, 'frontend', 'dist');
-console.log('Serving static files from:', distPath);
-app.use(express.static(distPath));
+app.use(express.static(path.join(__dirname, '../frontend/dist')));
 
 // root route
 app.get('/', (req, res) => {
@@ -48,7 +46,7 @@ app.use('/messages', messageRoutes);
 
 // catch all handler for all other routes (for client side navigating)
 app.get('*', (req, res) => {
-    res.sendFile(path.join(distPath, 'index.html'));
+    res.sendFile(path.join(__dirname, '../frontend/dist', 'index.html'));
 })
 
 // 404 Handler
