@@ -6,7 +6,7 @@ This is the backend for `Pairsona`, a platform that matches users based on their
 
 ## Deployment
 
-Visit [Pairsona](https://pairsona.onrender.com)
+Visit [Pairsona](https://pairsona-frontend.onrender.com)
 
 ---
 
@@ -26,7 +26,7 @@ Visit [Pairsona](https://pairsona.onrender.com)
 
 - [Frontend](https://github.com/jensuki/Pairsona-frontend)
 - [Backend](https://github.com/jensuki/Pairsona-backend)
- 
+
 ---
 
 ### **Functionality**
