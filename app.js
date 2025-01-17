@@ -23,6 +23,11 @@ app.use(cors());
 app.use(morgan('tiny'));
 app.use(authenticateJWT);
 
+// root route
+app.get('/', (req, res) => {
+    res.json({ message: 'Welcome to the Pairsona backend!' });
+});
+
 // routes
 app.use('/auth', authRoutes);
 app.use('/users', userRoutes);
