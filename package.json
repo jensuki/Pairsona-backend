@@ -5,7 +5,7 @@
   "scripts": {
     "test": "jest",
     "seed": "node scripts/seed_test_users.js",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
