@@ -31,6 +31,8 @@ app.use(authenticateJWT);
 
 // serve static files from build directory
 app.use(express.static(path.join(__dirname, 'frontend', 'dist')));
+//DEBUG
+console.log("DIST FOLDER PATH:", path.join(__dirname, 'frontend', 'dist'));
 
 // root route
 app.get('/', (req, res) => {
