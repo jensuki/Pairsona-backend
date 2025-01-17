@@ -4,6 +4,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const morgan = require('morgan');
+const path = require('path');
 
 const { authenticateJWT } = require('./middleware/auth');
 const authRoutes = require('./routes/authRoutes');
@@ -28,6 +29,9 @@ app.use(bodyParser.json());
 app.use(morgan('tiny'));
 app.use(authenticateJWT);
 
+// serve static files from build directory
+app.use(express.static(path.join(__dirname, 'frontend', 'dist')));
+
 // root route
 app.get('/', (req, res) => {
     res.json({ message: 'Welcome to the Pairsona backend!' });
@@ -40,6 +44,10 @@ app.use('/quiz', quizRoutes);
 app.use('/connections', connectionRoutes);
 app.use('/messages', messageRoutes);
 
+// catch all handler for all other routes (for client side navigating)
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'frontend', 'dist', 'index.html'));
+})
 
 // 404 Handler
 app.use((req, res, next) => {
