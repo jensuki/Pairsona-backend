@@ -1,0 +1,52 @@
+{
+    "type": "object",
+    "properties": {
+        "username": {
+            "type": "string",
+            "minLength": 5,
+            "maxLength": 20
+        },
+        "password": {
+            "type": "string",
+            "minLength": 8,
+            "maxLength": 20
+        },
+        "firstName": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 30,
+            "pattern": "^[a-zA-Z\\s\\-]+$"
+        },
+        "lastName": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 30,
+            "pattern": "^[a-zA-Z\\s\\-]+$"
+        },
+        "email": {
+            "type": "string",
+            "format": "email"
+        },
+        "birthDate": {
+            "type": "string",
+            "format": "date"
+        },
+        "location": {
+            "type": "string"
+        },
+        "bio": {
+            "type": "string",
+            "maxLength": 100
+        }
+    },
+    "required": [
+        "username",
+        "password",
+        "firstName",
+        "lastName",
+        "email",
+        "birthDate",
+        "location"
+    ],
+    "additionalProperties": false
+}

@@ -1,0 +1,422 @@
+[
+    {
+        "id": 1,
+        "text": "Do you make lists or rely on memory?",
+        "options": [
+            {
+                "text": "makes lists",
+                "value": "S"
+            },
+            {
+                "text": "relies on memory",
+                "value": "N"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "text": "Are you skeptical or want to believe?",
+        "options": [
+            {
+                "text": "skeptical",
+                "value": "T"
+            },
+            {
+                "text": "wants to believe",
+                "value": "F"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "text": "Are you bored by time alone or need time alone?",
+        "options": [
+            {
+                "text": "bored by time alone",
+                "value": "E"
+            },
+            {
+                "text": "needs time alone",
+                "value": "I"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "text": "Do you accept things as they are or are unsatisfied with the way things are?",
+        "options": [
+            {
+                "text": "accepts things as they are",
+                "value": "S"
+            },
+            {
+                "text": "unsatisfied with the way things are",
+                "value": "N"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "text": "Do you keep a clean room or just put stuff wherever?",
+        "options": [
+            {
+                "text": "keeps a clean room",
+                "value": "J"
+            },
+            {
+                "text": "just puts stuff wherever",
+                "value": "P"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "text": "Do you think 'robotic' is an insult or strive to have a mechanical mind?",
+        "options": [
+            {
+                "text": "thinks 'robotic' is an insult",
+                "value": "F"
+            },
+            {
+                "text": "strives to have a mechanical mind",
+                "value": "T"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "text": "Are you energetic or mellow?",
+        "options": [
+            {
+                "text": "energetic",
+                "value": "E"
+            },
+            {
+                "text": "mellow",
+                "value": "I"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "text": "Do you prefer multiple choice tests or essay questions?",
+        "options": [
+            {
+                "text": "prefer multiple choice test",
+                "value": "S"
+            },
+            {
+                "text": "prefer essay questions",
+                "value": "N"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "text": "Are you chaotic or organized?",
+        "options": [
+            {
+                "text": "chaotic",
+                "value": "P"
+            },
+            {
+                "text": "organized",
+                "value": "J"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "text": "Are you easily hurt or thick-skinned?",
+        "options": [
+            {
+                "text": "easily hurt",
+                "value": "F"
+            },
+            {
+                "text": "thick-skinned",
+                "value": "T"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "text": "Do you work best in groups or alone?",
+        "options": [
+            {
+                "text": "works best in groups",
+                "value": "E"
+            },
+            {
+                "text": "works best alone",
+                "value": "I"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "text": "Are you focused on the present or the future?",
+        "options": [
+            {
+                "text": "focused on the present",
+                "value": "S"
+            },
+            {
+                "text": "focused on the future",
+                "value": "N"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "text": "Do you plan far ahead or last minute?",
+        "options": [
+            {
+                "text": "plans far ahead",
+                "value": "J"
+            },
+            {
+                "text": "plans last minute",
+                "value": "P"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "text": "Do you want people's respect or their love and affection?",
+        "options": [
+            {
+                "text": "wants people's respect",
+                "value": "T"
+            },
+            {
+                "text": "wants their love and affection",
+                "value": "F"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "text": "Do you get worn out by parties or fired up by parties?",
+        "options": [
+            {
+                "text": "gets worn out by parties",
+                "value": "I"
+            },
+            {
+                "text": "gets fired up by parties",
+                "value": "E"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "text": "Do you fit in or stand out?",
+        "options": [
+            {
+                "text": "fits in",
+                "value": "I"
+            },
+            {
+                "text": "stands out",
+                "value": "E"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "text": "Do you keep options open or commit?",
+        "options": [
+            {
+                "text": "keeps options open",
+                "value": "P"
+            },
+            {
+                "text": "commits",
+                "value": "J"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "text": "Would you rather be good at fixing things or fixing people?",
+        "options": [
+            {
+                "text": "wants to be good at fixing things",
+                "value": "T"
+            },
+            {
+                "text": "wants to be good at fixing people",
+                "value": "F"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "text": "Do you talk more or listen more?",
+        "options": [
+            {
+                "text": "talks more",
+                "value": "E"
+            },
+            {
+                "text": "listens more",
+                "value": "I"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "text": "When describing an event, do you say what happened or tell people what it meant?",
+        "options": [
+            {
+                "text": "says what happened",
+                "value": "S"
+            },
+            {
+                "text": "tell people what it meant",
+                "value": "N"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "text": "Do you get work done right away or procrastinate?",
+        "options": [
+            {
+                "text": "gets work done right away",
+                "value": "J"
+            },
+            {
+                "text": "procrastinates",
+                "value": "P"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "text": "Do you follow your heart or your head?",
+        "options": [
+            {
+                "text": "follows the heart",
+                "value": "F"
+            },
+            {
+                "text": "follows the head",
+                "value": "T"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "text": "Would you rather stay at home or go out of town?",
+        "options": [
+            {
+                "text": "stays at home",
+                "value": "I"
+            },
+            {
+                "text": "goes out of town",
+                "value": "E"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "text": "Do you base morality on justice or compassion?",
+        "options": [
+            {
+                "text": "bases morality on justice",
+                "value": "T"
+            },
+            {
+                "text": "bases morality on compassion",
+                "value": "F"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "text": "Do you find it difficult to yell loudly or does yelling to others come naturally?",
+        "options": [
+            {
+                "text": "finds it difficult to yell loudly",
+                "value": "I"
+            },
+            {
+                "text": "yelling to others comes naturally",
+                "value": "E"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "text": "Are you theoretical or empirical?",
+        "options": [
+            {
+                "text": "theoretical",
+                "value": "N"
+            },
+            {
+                "text": "empirical",
+                "value": "S"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "text": "Do you work hard or play hard?",
+        "options": [
+            {
+                "text": "works hard",
+                "value": "J"
+            },
+            {
+                "text": "plays hard",
+                "value": "P"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "text": "Are you uncomfortable with emotions or value emotions?",
+        "options": [
+            {
+                "text": "uncomfortable with emotions",
+                "value": "T"
+            },
+            {
+                "text": "values emotions",
+                "value": "F"
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "text": "Do you like to perform in front of people or avoid public speaking?",
+        "options": [
+            {
+                "text": "likes to perform in front of people",
+                "value": "E"
+            },
+            {
+                "text": "avoids public speaking",
+                "value": "I"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "text": "Do you like to know who and what or why?",
+        "options": [
+            {
+                "text": "likes to know: who? what?",
+                "value": "S"
+            },
+            {
+                "text": "likes to know: why?",
+                "value": "N"
+            }
+        ]
+    }
+]
