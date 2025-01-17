@@ -2,7 +2,7 @@
 
 /** starting up server for pairsona */
 
-const { PORT } = process.env;
+const { PORT } = require('./config/config');
 const app = require('./app');
 
 app.listen(PORT, '0.0.0.0', () => {
