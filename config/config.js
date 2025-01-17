@@ -23,11 +23,11 @@ console.log("Pairsona Config:".green);
 // console.log("SECRET_KEY:".yellow, SECRET_KEY);
 console.log("PORT:".yellow, PORT.toString());
 // console.log("BCRYPT_WORK_FACTOR".yellow, BCRYPT_WORK_FACTOR);
-console.log("Database:".yellow, getDatabaseUri());
+// console.log("Database:".yellow, getDatabaseUri());
 // console.log("Test Database URL:".yellow, process.env.DATABASE_URL_TEST);
 console.log("---------");
-console.log("NODE_ENV:".yellow, process.env.NODE_ENV);
-console.log("Using Database:".yellow, getDatabaseUri());
+// console.log("NODE_ENV:".yellow, process.env.NODE_ENV);
+// console.log("Using Database:".yellow, getDatabaseUri());
 
 module.exports = {
     SECRET_KEY,
