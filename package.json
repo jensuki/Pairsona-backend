@@ -4,7 +4,8 @@
   "main": "app.js",
   "scripts": {
     "test": "jest",
-    "seed": "node scripts/seed_test_users.js"
+    "seed": "node scripts/seed_test_users.js",
+    "start": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
