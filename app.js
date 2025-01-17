@@ -16,10 +16,15 @@ const { NotFoundError } = require('./config/expressError');
 
 const app = express();
 
+// cors setup
+app.use(cors({
+    origin: ['http://localhost:5173', 'https://pairsona-frontend.onrender.com'], // Allowed origins
+    credentials: true // allow cookies + auth headers
+}));
+
 // middleware
 app.use(express.json());
 app.use(bodyParser.json());
-app.use(cors());
 app.use(morgan('tiny'));
 app.use(authenticateJWT);
 
