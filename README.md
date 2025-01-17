@@ -22,6 +22,13 @@ Visit [Pairsona](https://pairsona.onrender.com)
 
 ---
 
+### **Repositories**
+
+- [Frontend](https://github.com/jensuki/Pairsona-frontend)
+- [Backend](https://github.com/jensuki/Pairsona-backend)
+
+---
+
 ### **Functionality**
 
 - **Generate Compatible Users**: Recommend users based on MBTI compatibility and geographic proximity.
