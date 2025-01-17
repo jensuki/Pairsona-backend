@@ -116,9 +116,14 @@ const seedTestUsers = async () => {
         await db.query('ROLLBACK'); // rollback if error
         console.error('Error seeding test users', err);
     } finally {
-        // dont close the connection pool in nontest environments
-        if (process.env.NODE_ENV === 'test' || process.env.NODE_ENV === undefined) {
-            await db.end(); // close the connection if this is a test/standalone run
+        try {
+            console.log('Closing database connection...');
+            await db.end(); // close the connection
+            console.log('Database connection closed.');
+            process.exit(0); // exit the process successfully
+        } catch (err) {
+            console.error('Error closing database connection:', err);
+            process.exit(1); // exit with failure if an error occurs
         }
     }
 };
